@@ -45,7 +45,7 @@ SysInfoLogger is an open-source tool designed for use in a virtual machine (VM) 
 
 Shortly after running, the program will display detailed system information in a format similar to the image below, which shows an example output with sensitive information blanked out:
 
-![SysInfoLogger Output](path/to/your/image.png)
+![SysInfoLoggerThumbnail](https://github.com/user-attachments/assets/29beb009-2849-433e-a5cc-97148198af89)
 
 ---
 
