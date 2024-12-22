@@ -1,4 +1,5 @@
-# SysInfoLogger
+# SysInfoLogger![SysInfoLoggerThumbnail](https://github.com/user-attachments/assets/6de34950-0d2b-4cfe-afca-969ba8601afc)
+
 
 SysInfoLogger is an open-source tool designed for use in a virtual machine (VM) environment to simulate the information that malicious software might extract from your system. This tool aims to educate users about the types of data that could be accessed by a computer virus, helping improve awareness and security practices.
 
