@@ -1,4 +1,4 @@
-# SysInfoLogger![SysInfoLoggerThumbnail](https://github.com/user-attachments/assets/6de34950-0d2b-4cfe-afca-969ba8601afc)
+# SysInfoLogger![SysInfoLoggerThumbnail](https://github.com/user-attachments/assets/29beb009-2849-433e-a5cc-97148198af89)
 
 
 SysInfoLogger is an open-source tool designed for use in a virtual machine (VM) environment to simulate the information that malicious software might extract from your system. This tool aims to educate users about the types of data that could be accessed by a computer virus, helping improve awareness and security practices.
@@ -15,6 +15,7 @@ SysInfoLogger is an open-source tool designed for use in a virtual machine (VM) 
   - Router's private IP address
   - Public IP address (geo-location inferred if available)
 - Automatically downloads `curl` if not pre-installed (optional prerequisite).
+- Compiled version available as `.exe` for users without AutoHotkey v1 installed.
 - Completely transparent and open-source for educational and testing purposes.
 
 ---
@@ -32,9 +33,19 @@ SysInfoLogger is an open-source tool designed for use in a virtual machine (VM) 
    git clone https://github.com/YourUsername/SysInfoLogger.git
    ```
 
-2. Ensure AutoHotkey v1 is installed on your system.
+2. Ensure AutoHotkey v1 is installed, or use the compiled `.exe` version.
 
-3. Run the script (`SysInfoLogger.ahk`) in a virtual machine environment for best results.
+3. Extract the `.exe` or `.ahk` file anywhere on your desktop or in a folder.
+
+4. Run the file in a secure environment (preferably a virtual machine).
+
+---
+
+## Output
+
+Shortly after running, the program will display detailed system information in a format similar to the image below, which shows an example output with sensitive information blanked out:
+
+![SysInfoLogger Output](path/to/your/image.png)
 
 ---
 
@@ -51,10 +62,17 @@ This program is strictly for educational purposes and VM testing. It is NOT inte
 
 ---
 
+## Disclaimer
+
+I, **Nikola Glavinić**, am not responsible for any misuse of this tool. Its sole purpose is for testing and educational purposes.
+
+---
+
 ## Usage
 
-1. Run the script in a secure environment (preferably a virtual machine).
-2. The tool will display detailed system information, simulating what could be accessed by a potential virus.
+1. Extract the `.exe` or `.ahk` file to a folder or your desktop.
+2. Run the script in a secure environment (preferably a virtual machine).
+3. The tool will display detailed system information, simulating what could be accessed by a potential virus.
 
 ---
 
@@ -66,10 +84,12 @@ Contributions are welcome! If you have ideas or improvements, feel free to creat
 
 ## License
 
-This project is licensed under the Apache License 2.0 License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## Disclaimer
+## License Summary
 
-SysInfoLogger is intended for **responsible use only**. JohnnYDeveloperAHK is not liable for any misuse of this tool.
+- You are free to use, modify, and distribute this software.
+- You must provide attribution to the original author.
+- Any modifications must be clearly stated.
